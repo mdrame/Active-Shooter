@@ -144,7 +144,6 @@
 		771B2D242045097700E5D968 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				77CA2E20204515C6008BE632 /* secondVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +153,7 @@
 			children = (
 				771B2CF22045093900E5D968 /* AppDelegate.swift */,
 				771B2CF42045093900E5D968 /* ViewController.swift */,
+				77CA2E20204515C6008BE632 /* secondVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";

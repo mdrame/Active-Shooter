@@ -50,13 +50,22 @@
                                         <rect key="frame" x="8" y="309" width="359" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.33569177985191345" green="0.36436498165130615" blue="0.39331626892089844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <string key="text">This app tests your ability in an invent of a active shooter situation, and also educate the user on how to recognize signs of potential violence around them.   Remember during an active shooting to RUN. HIDE. FIGHT. WARNING Explicit Contants 🔞
-
+                                        <string key="text" base64-UTF8="YES">
+Cg
 </string>
                                         <color key="textColor" red="0.99991601705551147" green="1" blue="0.99987202882766724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nh-K2-Tax">
+                                        <rect key="frame" x="8" y="326" width="359" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">This app test your ability in an event of a active shooter situation, and also educate the user on how to recognize signs of potential violence around them.   Remember during an active shooting to RUN. HIDE. and FIGHT. WARNING Explicit Contants 🔞
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" red="0.99991601705551147" green="1" blue="0.99987202882766724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33569177985191345" green="0.36436498165130615" blue="0.39331626892089844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -74,6 +83,13 @@
                                     <action selector="proceedButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3zc-iN-E2O"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copy © Nolimitt231App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-VZ-adj">
+                                <rect key="frame" x="166" y="482" width="193" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96157103776931763" green="0.36978280544281006" blue="0.50154894590377808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -84,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-538.39999999999998" y="244.22788605697153"/>
+            <point key="canvasLocation" x="-938.39999999999998" y="242.42878560719643"/>
         </scene>
         <!--SecondVC-->
         <scene sceneID="jlz-rN-1kY">
@@ -98,43 +114,53 @@
                                 <rect key="frame" x="69" y="68" width="236" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mcf-XW-o6b">
-                                <rect key="frame" x="8" y="50" width="359" height="246"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.33569177989999999" green="0.36436498169999998" blue="0.39331626889999999" alpha="0.62739980381165916" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">                                                             You heard a shot  fired within the past 30 seconds. There are two dead on the flow and three wounded. What do you do?
-
-</string>
-                                <color key="textColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0H-SK-fNY">
-                                <rect key="frame" x="78" y="376" width="218" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.39532700181007385" green="0.75057536363601685" blue="0.62950265407562256" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="33"/>
-                                <state key="normal" title="Investigate 👀">
-                                    <color key="titleColor" red="1" green="0.98637727806751396" blue="0.095856479450852627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coV-dd-wDJ">
-                                <rect key="frame" x="78" y="494" width="218" height="83"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coV-dd-wDJ" customClass="proceedButtton" customModule="A_S" customModuleProvider="target">
+                                <rect key="frame" x="78" y="564" width="218" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.39532700180000002" green="0.75057536359999999" blue="0.62950265409999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="40"/>
                                 <state key="normal" title="Run❗️">
                                     <color key="titleColor" red="1" green="0.98637727809999998" blue="0.095856479450000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonsPress:" destination="u2P-8d-qzL" eventType="touchUpInside" id="mRA-fH-GFg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="39" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Phi-pa-POa">
+                                <rect key="frame" x="8" y="32" width="359" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60157675638686126" green="0.60157675638686126" blue="0.60157675638686126" alpha="0.84774383408071752" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">You heard a Gun shot  fired within the past 30 seconds. There are two dead on the flow and three wounded. What do you do?
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.9999160171" green="1" blue="0.99987202880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0H-SK-fNY" customClass="proceedButtton" customModule="A_S" customModuleProvider="target">
+                                <rect key="frame" x="78" y="473" width="218" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.39532700181007385" green="0.75057536363601685" blue="0.62950265407562256" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="33"/>
+                                <state key="normal" title="Investigate 👀">
+                                    <color key="titleColor" red="1" green="0.98637727806751396" blue="0.095856479450852627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonsPress:" destination="u2P-8d-qzL" eventType="touchUpInside" id="3oA-qA-zQP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96157103776931763" green="0.36978280544281006" blue="0.50154894590377808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Nq2-Dg-rl0"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonOneTittle" destination="r0H-SK-fNY" id="5td-aA-4Ts"/>
+                        <outlet property="buttonTwoTittle" destination="coV-dd-wDJ" id="W6b-dq-s31"/>
+                        <outlet property="questionLabel" destination="Phi-pa-POa" id="2eJ-Mz-sQ0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oAv-2F-3Dp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="292" y="245.12743628185908"/>
+            <point key="canvasLocation" x="-250.40000000000001" y="250.52473763118442"/>
         </scene>
     </scenes>
     <resources>
