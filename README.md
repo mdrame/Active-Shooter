@@ -1,22 +1,15 @@
-                                                       
+# Active Shooter
 
+Active Shooter is a work in progress game. Anyone is welcome to contribute. 
 
-<p align="center"> 
-                        <a href="http://g.recordit.co/CwnvLRYLu7.gif"/> Gif </a>
-</p>
+![Game Preview](https://raw.githubusercontent.com/mdrame/Active-Shooter/master/gif.gif)
 
- <p align="center"> 
-  
-  #To do List
-  
-  </p>
+## Todo
 
+* UI/UX Need work
+* Auto Layout
 
-<p align="center"> 
-  
-  * App is open to new developers
-  * UI/UX need work
-  * Auto Layout
-  
-  
-  </p>
+## contributors
+
+* Mo [@mdrame](https://github.com/mdrame)
+* Sem Schilder [@xvilo](https://github.com/xvilo)
