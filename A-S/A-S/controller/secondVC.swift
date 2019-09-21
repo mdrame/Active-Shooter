@@ -19,7 +19,23 @@ class secondVC: UIViewController {
     // button one wen is press / action
   
     @IBAction func buttonsPress (_ sender: UIButton) {
-        
+        switch (sender.tag,indexIncrease){
+            case (1,1):
+            //Write code in between these blocks
+            case (2,10):
+            case (2,1):
+            case (1,2):
+            case (2,11):
+            case (2,2):
+            case (1,3):
+            case (2,12):
+            case (2,3):
+            case (1,4):
+            case (1,5):
+            case (1,6):
+            default:
+            
+        }
         if sender.tag == 1 && indexIncrease == 1 {
           
             questionLabel.text = " Wrong Answer"
@@ -212,20 +228,5 @@ class secondVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
